@@ -1,6 +1,7 @@
-import { createStore, createTypedHooks } from 'easy-peasy'
 import type { Store } from 'easy-peasy'
-import { weatherModel, type WeatherModel } from './models/weatherModel'
+import { createStore, createTypedHooks } from 'easy-peasy'
+
+import { type WeatherModel, weatherModel } from './models/weatherModel'
 
 export interface StoreModel {
   weather: WeatherModel
